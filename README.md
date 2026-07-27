@@ -44,8 +44,8 @@ It is markdown templates, two init scripts, and a protocol. No runtime, no depen
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/parallel-agent-framework.git
-cd parallel-agent-framework
+git clone https://github.com/Jjohnston70/parallel-agentstack.git
+cd parallel-agentstack
 ```
 
 **Windows (PowerShell):**
@@ -101,4 +101,3 @@ MIT — see [LICENSE](LICENSE).
 
 Jacob Johnston | True North Data Strategies LLC | SDVOSB
 jacob@truenorthstrategyops.com
-# parallel-agentstack
