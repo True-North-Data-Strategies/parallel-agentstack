@@ -13,7 +13,7 @@ A provider-agnostic framework for running 2-3 AI agents on the same codebase in 
 
 ## Repo layout
 
-- `templates/` — four template variants (2-agent with zones, 3-agent, coordination-only, and a blank/generic variant)
+- `templates/` — three template variants (2-agent with zones, 3-agent, coordination-only) and a one-page reference card
 - `examples/` — walkthrough applying the framework to a SaaS dashboard build
 - `docs/` — quickstart and deep-dive
 - `tools/` — PowerShell + bash init scripts
@@ -23,7 +23,7 @@ A provider-agnostic framework for running 2-3 AI agents on the same codebase in 
 - No runtime code. Changes are almost always markdown or shell/PS scripts.
 - Templates are copied verbatim into user projects. Keep them self-contained — no cross-file references.
 - The init scripts must remain pure — no network calls, no secrets, no writes outside the target project path.
-- Don't introduce TNDS-internal references (Command Protocol stage names, internal repo names, client names). This is a public, provider-agnostic framework.
+- Don't introduce TNDS-internal references (internal method or stage names, internal repo names, client names). This is a public, provider-agnostic framework.
 
 ## Don't
 

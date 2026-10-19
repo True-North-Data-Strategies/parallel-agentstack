@@ -25,7 +25,6 @@ if [ -z "$PROJECT_PATH" ]; then
     echo "  AI-PROJECT-TEMPLATE-PROMPT.md       (default) 2-agent with file zones"
     echo "  AI-PROJECT-TEMPLATE-3AGENT.md        3-agent variant"
     echo "  AI-AGENT-NO-FILE-RULES-PROMPT.md     Coordination-only, no file rules"
-    echo "  AI-PROJECT-TEMPLATE-TNDS-CLIENT.md   TNDS Command Center variant"
     exit 1
 fi
 

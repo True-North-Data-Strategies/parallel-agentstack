@@ -15,8 +15,8 @@ Get two AI agents building your project in parallel in under 10 minutes.
 ## Step 1: Clone the Framework
 
 ```bash
-git clone https://github.com/TNDS-Command-Center/tnds-parallel-dev-framework.git
-cd tnds-parallel-dev-framework
+git clone https://github.com/True-North-Data-Strategies/parallel-agentstack.git
+cd parallel-agentstack
 ```
 
 ---
@@ -129,7 +129,10 @@ When both agents hit the checkpoint milestone:
 | `AI-PROJECT-TEMPLATE-PROMPT.md` | Standard 2-agent build with file zones |
 | `AI-PROJECT-TEMPLATE-3AGENT.md` | Need a third agent for DevOps/Testing |
 | `AI-AGENT-NO-FILE-RULES-PROMPT.md` | Existing project, don't want file rules |
-| `AI-PROJECT-TEMPLATE-TNDS-CLIENT.md` | TNDS Command Center client builds |
+
+The init scripts use `AI-PROJECT-TEMPLATE-PROMPT.md` unless you name another one: pass the file name as the second argument to `init-project.sh`, or as `-Template` to `init-project.ps1`.
+
+`templates/AI-AGENT-REFERENCE-CARD.md` is a one-page cheat sheet to keep open while you work, not a template to initialize from.
 
 ---
 
