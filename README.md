@@ -31,7 +31,7 @@ _The Parallel Agent Framework mark._
 ## Quick start
 
 ```bash
-git clone https://github.com/Jjohnston70/parallel-agentstack.git
+git clone https://github.com/True-North-Data-Strategies/parallel-agentstack.git
 cd parallel-agentstack
 ```
 
